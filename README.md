@@ -15,8 +15,8 @@ I've done my best to people who have bad visions, so app's aim is improve/correc
 
 ## Documentation
 
-There's no documentation yeT.
-You can see the code [there](https://github.com/haha4un/ProzrenieLite/tree/master)
+There's no documentation yet.
+You can see the code [here](https://github.com/haha4un/ProzrenieLite/tree/master)
 
 ## Distribute
 

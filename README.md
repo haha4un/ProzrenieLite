@@ -11,6 +11,7 @@
 ## About
 
 I've done my best to people who have bad visions, so app's aim is improve/correct your vision. There are some exercises for eyes which won't take a long time to do. 
+(It's the open Prozrenie version)
 
 ## Documentation
 

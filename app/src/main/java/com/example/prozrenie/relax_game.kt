@@ -1,4 +1,4 @@
-package com.example.prozrenie
+package com.example.prozrenielite
 
 import android.annotation.SuppressLint
 import android.app.Dialog
@@ -15,6 +15,7 @@ import android.widget.TextView
 import android.widget.Toast
 import android.widget.VideoView
 import androidx.appcompat.app.AppCompatActivity
+import com.example.prozrenielite.R
 
 
 class relax_game : AppCompatActivity() {
@@ -86,10 +87,10 @@ class relax_game : AppCompatActivity() {
         }
         Toast.makeText(this, "Видео: $j", Toast.LENGTH_SHORT).show()
         when (j) {
-            1 -> {path += com.example.prozrenie.R.raw.v1;}
-            2-> {path += com.example.prozrenie.R.raw.v2;}
-            3-> {path += com.example.prozrenie.R.raw.v3;}
-            4-> {path += com.example.prozrenie.R.raw.v4;}
+            1 -> {path += com.example.prozrenielite.R.raw.v1;}
+            2-> {path += com.example.prozrenielite.R.raw.v2;}
+            3-> {path += com.example.prozrenielite.R.raw.v3;}
+            4-> {path += com.example.prozrenielite.R.raw.v4;}
         }
         var uri: Uri = Uri.parse(path)
         view.setVideoURI(uri)

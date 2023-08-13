@@ -1,4 +1,4 @@
-package com.example.prozrenie
+package com.example.prozrenielite
 
 import android.app.Dialog
 import androidx.appcompat.app.AppCompatActivity
@@ -12,6 +12,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.core.view.children
 import androidx.core.view.get
+import com.example.prozrenielite.R
 import kotlin.random.Random
 
 class flower_game : AppCompatActivity() {

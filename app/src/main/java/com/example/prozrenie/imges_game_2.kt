@@ -1,8 +1,9 @@
-package com.example.prozrenie
+package com.example.prozrenielite
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
+import com.example.prozrenielite.R
 
 class imges_game_2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -1,4 +1,4 @@
-package com.example.prozrenie
+package com.example.prozrenielite
 
 import android.Manifest
 import android.app.Dialog
@@ -32,6 +32,7 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.core.view.get
 import com.example.drawingapp.DrawingView
+import com.example.prozrenielite.R
 import yuku.ambilwarna.AmbilWarnaDialog
 import yuku.ambilwarna.AmbilWarnaDialog.OnAmbilWarnaListener
 import java.io.ByteArrayOutputStream

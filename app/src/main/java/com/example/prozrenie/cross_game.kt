@@ -1,4 +1,4 @@
-package com.example.prozrenie
+package com.example.prozrenielite
 
 import android.annotation.SuppressLint
 import android.app.Dialog
@@ -13,6 +13,7 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.prozrenielite.R
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.delay

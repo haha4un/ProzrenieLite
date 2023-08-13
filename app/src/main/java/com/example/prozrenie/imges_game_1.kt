@@ -1,4 +1,4 @@
-package com.example.prozrenie
+package com.example.prozrenielite
 
 import android.R.attr.bottom
 import android.R.attr.left
@@ -15,6 +15,7 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.updateLayoutParams
+import com.example.prozrenielite.R
 
 
 class imges_game_1 : AppCompatActivity() {

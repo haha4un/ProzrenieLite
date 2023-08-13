@@ -1,5 +1,5 @@
 <p align="center">
-      <img src="https://github.com/haha4un/prozrenie/blob/master/app/src/main/res/drawable/icon_spl.png?raw=true" width="450">
+      <img src="https://github.com/haha4un/ProzrenieLite/blob/master/app/src/main/res/drawable/icon_spl.png" width="450">
 </p>
 
 <p align="center">

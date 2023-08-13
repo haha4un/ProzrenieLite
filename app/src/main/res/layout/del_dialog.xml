@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25"
+        android:id="@+id/txt_del"
+        android:text="Удалить?"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/yes"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        android:layout_gravity="center"
+        android:fontFamily="@font/montserrat_italic"
+        android:textColor="@color/gray"
+        android:text="Да"/>
+    <Button
+        android:id="@+id/no"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        android:layout_gravity="center"
+        android:fontFamily="@font/montserrat_italic"
+        android:textColor="@color/gray"
+        android:text="Нет"/>
+
+</LinearLayout>

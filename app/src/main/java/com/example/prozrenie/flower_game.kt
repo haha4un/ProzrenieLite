@@ -83,7 +83,7 @@ class flower_game : AppCompatActivity() {
 
 
                     change_hexes(fr.get(0) as ImageView, RAN_HEX_C)
-                    set_img(im, RAN_HEX_C)
+                    set_img(im, RAN_HEX_C_img)
                     continue
                 } else if (fr.tag.toString() == "$RAN_POS") {
                     val t = fr.get(1) as TextView
@@ -91,7 +91,7 @@ class flower_game : AppCompatActivity() {
 
                     val im = fr.get(2) as ImageView
 
-                    set_img(im, RAN_HEX_C)
+                    set_img(im, RAN_HEX_C_img)
                     change_hexes(fr.get(0) as ImageView, RAN_HEX)
 
                     continue
@@ -101,9 +101,10 @@ class flower_game : AppCompatActivity() {
                 val im = fr.get(2) as ImageView
 
                 val x = checktocol(list, Random.nextInt(1, 10))
+                val y = checktocol(list, Random.nextInt(1, 46))
                 change_hexes(fr.get(0) as ImageView, RAN_HEX)
 
-                set_img(im, x)
+                set_img(im, y)
                 t.text = x.toString()
             }
         }

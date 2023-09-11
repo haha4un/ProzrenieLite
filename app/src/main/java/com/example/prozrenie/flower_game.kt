@@ -68,6 +68,8 @@ class flower_game : AppCompatActivity() {
         RAN = Random.nextInt(0,10)
         list += RAN
         list += RAN_HEX_C
+        list += RAN_HEX_C_img
+        list += RAN_HEX_img
         RAN_POS = Random.nextInt(1,7)
         for (i in 0 until cl!!.childCount)
         {

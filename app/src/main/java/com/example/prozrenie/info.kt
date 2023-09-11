@@ -23,6 +23,9 @@ class info : AppCompatActivity() {
 
         val s = findViewById<TextView>(R.id.s_inf)
         s.movementMethod = LinkMovementMethod.getInstance()
+
+        val m = findViewById<TextView>(R.id.m_inf)
+        m.movementMethod = LinkMovementMethod.getInstance()
     }
     override fun onBackPressed() {
         setResult(RESULT_CANCELED)

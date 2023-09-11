@@ -73,6 +73,31 @@
                     android:text="@string/savely"
                     android:textColor="@color/gray"
                     android:linksClickable="true"
+                    android:id="@+id/m_inf"/>
+
+                <ImageView
+                    android:layout_marginTop="15sp"
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:src="@drawable/max_ava" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5sp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:gravity="center"
+                    android:text="keyrdis (aka Максим Гайнанов)"
+                    android:textColor="@color/gray"
+                    android:textSize="15sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5sp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="@string/max"
+                    android:textColor="@color/gray"
+                    android:linksClickable="true"
                     android:id="@+id/s_inf"/>
             </LinearLayout>
             <TextView

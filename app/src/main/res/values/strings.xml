@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">НосорогLite</string>
-    <string name="app_ver">Версия: v1.0.1.4</string>
+    <string name="app_ver">Версия: v1.0.2</string>
 
     <string name="LICENSE">MIT License\nCopyright © 2023 haha4un\n\nPermission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -23,7 +23,8 @@ SOFTWARE.</string>
     <string name="paint">Paint</string>
 
     <string name="info">Это приложение создано для детей с плохим зрением. Тут Вы можете найти комплекс упражнений, которые помогут сохранить Ваше зрение.</string>
-    <string name="savely">Дизайн и код приложения НосорогLite;\n<a href="https://haha4un.github.io/me">Контакты</a> и <a href="https://vk.com/haha4un">Вконтакте</a></string>
+    <string name="savely">Основной дизайн и код приложения НосорогLite;\n<a href="https://haha4un.github.io/me">Контакты</a> и <a href="https://vk.com/haha4un">Вконтакте</a></string>
+    <string name="max">Дизайн некоторых иконок;\n<a href="https://t.me/maxim_guynanov">Контакты</a> и <a href="https://vk.com/maximkeyrdis">Вконтакте</a></string>
 
     <string name="howto_img"><i>Комплект "Мозаика"</i> обеспечивает стимуляцию глаза посредством специальной зрительной нагрузки\n\nпри амблиопии, астигматизме, гиперметропии, а также после офтальмологических операций, в качестве средства реабилитации\n\nСложность задания подбирают в зависимости от остроты зрения и возраста малыша.\n\n<b>!!!\nИмеются противопоказания, поэтому использование возможно только по назначению офтальмолога.</b></string>
 

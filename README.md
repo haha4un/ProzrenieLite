@@ -20,7 +20,7 @@ You can see the code [here](https://github.com/haha4un/ProzrenieLite/tree/master
 
 ## Distribute
 
-- You can download the current version here: [github](https://github.com/haha4un/ProzrenieLite/blob/main/v1.apk)
+- You can download the current version here: [github](https://github.com/haha4un/ProzrenieLite/releases/v1.0.2_beta/)
 
 
 ## Developers

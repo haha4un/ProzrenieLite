@@ -153,11 +153,19 @@ class cross_game : AppCompatActivity() {
         var dialog = Dialog(this)
         dialog.setContentView(R.layout.resizement)
         var height = dialog.findViewById<TextView>(R.id.height_cross)
+        height.setText(HEIGHT.toString())
         var length = dialog.findViewById<TextView>(R.id.lenght_cross)
+        length.setText(LENGHT.toString())
         var speed = dialog.findViewById<TextView>(R.id.speed_cross)
+        speed.setText(SPEED.toString())
         var size = dialog.findViewById<TextView>(R.id.sizes_cross)
+        size.setText(SIZES.toString())
         var ok = dialog.findViewById<Button>(R.id.submit_data)
         ok.setOnClickListener {
+            if (HEIGHT <= 0 || LENGHT<=0||SIZES<=0||SPEED<=0){
+                Toast.makeText(this, "Данные должны быть не нулевыми!", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+            }
             HEIGHT = height.text.toString().toInt()
             LENGHT = length.text.toString().toInt()
             SIZES = size.text.toString().toInt()

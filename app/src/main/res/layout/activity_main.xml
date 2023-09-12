@@ -28,16 +28,17 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="left"
+                    android:layout_gravity="center"
                     android:layout_marginStart="10sp"
+                    android:fontFamily="@font/montserrat_bold"
                     android:text="@string/app_name"
                     android:textAllCaps="true"
-                    android:fontFamily="@font/montserrat_bold"
-                    android:textSize="34sp"
-                    android:textColor="@color/gray"/>
+                    android:textColor="@color/gray"
+                    android:textSize="34sp" />
 
                 <TextView
                     android:id="@+id/inf_btn"
@@ -58,9 +59,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:foregroundGravity="center"
-                android:gravity="left|center"
+                android:gravity="center|center"
                 android:overScrollMode="never"
                 android:scrollbars="none"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/lilwithinf">
 
@@ -69,14 +71,14 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:foregroundGravity="center"
-                    android:gravity="top"
+                    android:gravity="center|top"
                     android:orientation="horizontal">
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:gravity="center">
+                        android:gravity="center"
+                        android:orientation="vertical">
 
                         <LinearLayout
                             android:id="@+id/drawing_game"
@@ -86,6 +88,7 @@
                             android:gravity="center"
                             android:orientation="vertical"
                             android:padding="5sp">
+
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
@@ -102,6 +105,7 @@
                                 android:textColor="@color/gray"
                                 android:textSize="15sp" />
                         </LinearLayout>
+
                         <LinearLayout
                             android:id="@+id/imgs_game"
                             android:layout_width="wrap_content"
@@ -110,21 +114,24 @@
                             android:gravity="center"
                             android:orientation="vertical"
                             android:padding="5sp">
+
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:layout_gravity="center"
                                 android:src="@drawable/imgs_m" />
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
+                                android:layout_gravity="center"
                                 android:fontFamily="@font/montserrat_bold"
                                 android:text="Картинки"
-                                android:layout_gravity="center"
                                 android:textAllCaps="true"
                                 android:textColor="@color/gray"
                                 android:textSize="15sp" />
                         </LinearLayout>
+
                         <LinearLayout
                             android:id="@+id/relax_game"
                             android:layout_width="wrap_content"
@@ -133,79 +140,83 @@
                             android:gravity="center"
                             android:orientation="vertical"
                             android:padding="5sp">
+
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:layout_gravity="center"
                                 android:src="@drawable/relax_m" />
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
+                                android:layout_gravity="center"
                                 android:fontFamily="@font/montserrat_bold"
                                 android:text="Релакс"
-                                android:layout_gravity="center"
                                 android:textAllCaps="true"
                                 android:textColor="@color/gray"
                                 android:textSize="15sp" />
                         </LinearLayout>
                     </LinearLayout>
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:gravity="center">
 
                     <LinearLayout
-                        android:id="@+id/flower_game_l"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center"
                         android:gravity="center"
-                        android:orientation="vertical"
-                        android:padding="5sp">
+                        android:orientation="vertical">
 
-                        <ImageView
+                        <LinearLayout
+                            android:id="@+id/flower_game_l"
                             android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
+                            android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:src="@drawable/flower_m" />
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="5sp">
 
-                        <TextView
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:src="@drawable/flower_m" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/montserrat_bold"
+                                android:text="Цветок"
+                                android:textAllCaps="true"
+                                android:textColor="@color/gray"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/cross_game_l"
                             android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
-                            android:fontFamily="@font/montserrat_bold"
-                            android:text="Цветок"
+                            android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:textAllCaps="true"
-                            android:textColor="@color/gray"
-                            android:textSize="15sp" />
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="5sp">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:src="@drawable/cross_m" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/montserrat_bold"
+                                android:text="Крестики"
+                                android:textAllCaps="true"
+                                android:textColor="@color/gray"
+                                android:textSize="15sp" />
+                        </LinearLayout>
                     </LinearLayout>
-                    <LinearLayout
-                        android:id="@+id/cross_game_l"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:gravity="center"
-                        android:orientation="vertical"
-                        android:padding="5sp">
-
-                        <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
-                            android:layout_gravity="center"
-                            android:src="@drawable/cross_m" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
-                            android:fontFamily="@font/montserrat_bold"
-                            android:text="Крестики"
-                            android:layout_gravity="center"
-                            android:textAllCaps="true"
-                            android:textColor="@color/gray"
-                            android:textSize="15sp" />
-                    </LinearLayout>
-                </LinearLayout>
                 </LinearLayout>
             </HorizontalScrollView>
         </androidx.constraintlayout.widget.ConstraintLayout>
